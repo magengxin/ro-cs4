@@ -1,0 +1,108 @@
+<!DOCTYPE html><html class="no-js" lang="zh"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no"><title>《仙境传说：复兴》手游官网 - 周年庆开启</title><script>var browser = {
+    versions: function () {
+        var u = navigator.userAgent, app = navigator.appVersion;
+        return {//移动终端浏览器版本信息
+            trident: u.indexOf('Trident') > -1, //IE内核
+            presto: u.indexOf('Presto') > -1, //opera内核
+            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf('iPad') > -1, //是否iPad
+            webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+        };
+    }(),
+    language: (navigator.browserLanguage || navigator.language).toLowerCase()
+}
+
+// 判断是否是移动端
+isMobile = (browser.versions.mobile || browser.versions.ios || browser.versions.android ||
+browser.versions.iPhone || browser.versions.iPad)    
+
+if (isMobile) {
+    var docEl = document.documentElement
+    var deviceWidth = docEl.clientWidth;
+    var dpr = window.devicePixelRatio;
+    var scale = 1; // 如果我们做到 dip 和物理像素 1:1
+    var metaEl = document.createElement('meta');
+    metaEl.setAttribute('name', 'viewport');
+    metaEl.setAttribute('content', 'width=device-width, initial-scale=' + scale + ',maximum-scale=1,user-scalable=no');
+    docEl.firstElementChild.appendChild(metaEl);
+
+    var resize = function() {
+        docEl.style.fontSize = (document.documentElement.clientWidth / 750) * 40 + 'px';
+        docEl.setAttribute('data-dpr', dpr);
+    };
+    window.addEventListener('resize', resize);
+    resize();
+}</script><script>if (isMobile) {
+    location.href = "userback-mobile.html"
+}
+</script><meta name="keywords" content="仙境传说，仙境传说手游，仙境传说手游下载，仙境传说手游礼包，仙境传说手游iOS，仙境传说手游苹果，仙境传说手游安卓，仙境传说：复兴，仙境传说：复兴下载，仙境传说：复兴iOS，仙境传说：复兴苹果，仙境传说：复兴安卓，仙境传说：复兴礼包，仙境传说:复兴，仙境传说复兴，RO，RO手游，RO复兴，RO手游下载，RO手游礼包，RO手游iOS，RO手游苹果，RO手游安卓，仙境传说：复兴周年庆，仙境传说复兴周年庆，仙境传说：复兴1周年，仙境传说复兴1周年，仙境传说：复兴一周年，仙境传说复兴一周年"><meta name="description" content="《仙境传说：复兴》是骏梦游戏联手韩国Gravity出品正统RO手游，继承端游纯正血统，完美重塑梦幻萌系RO世界，波利、小恶魔等萌宠伴你共赴冒险之旅。迎接初心者再次上路，重温曾经最美好的游戏时光！"><meta name="format-detection" content="telephone=no,address=no,email=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="renderer" content="webkit"><!-- uc强制竖屏 --><meta name="screen-orientation" content="portrait"><!-- QQ强制竖屏 --><meta name="x5-orientation" content="portrait"><!-- UC强制全屏 --><meta name="full-screen" content="yes"><!-- QQ强制全屏 --><meta name="x5-fullscreen" content="true"><!-- UC应用模式 --><meta name="browsermode" content="application"><!-- QQ应用模式 --><meta name="x5-page-mode" content="app"><!-- rev-hash -->
+<!-- end --><link rel="stylesheet" href="lib/swiper/swiper.min.css"><!-- rev-hash -->
+<link rel="stylesheet" href="css/userback.css?v=37a499cdc1b4e66470bab938e9dd8675">
+<!-- end --></head><body class="loading" ontouchstart=""><!--[if lt IE 9]><p class="browserupgrade">抱歉，本网站需要 IE9+ 或现代浏览器。请升级或使用其他浏览器。国产浏览器请使用极速模式，不要使用兼容模式。</p><![endif]--><div class="toast-container"></div><div class="container"><div class="header"><div class="top_bar ">
+    <div class="top_bar_con ">
+        <a class="top_logo " href="http://game.thedream.cc/ " target="_blank "><img class="pt " src="http://game.thedream.cc/resource/top_logo.jpg " alt="骏梦网络 "></a>
+
+        <ul class="top_menu clearfix ">
+
+            <li class="forum ">
+                <a target="_blank " href="http://bbs.thedream.cc ">论坛</a>
+            </li>
+            <li class="pay ">
+                <a target="_blank " href="http://billing.thedream.cc ">充值</a>
+            </li>
+            <li class="regis ">
+                <a target="_blank " href="http://member.thedream.cc/reg_account.html ">注册</a>
+            </li>
+            <li class="regis "><a target="_blank " style="background:none " href="http://game.thedream.cc ">骏梦平台</a></li>
+        </ul>
+    </div>
+</div></div><div class="view-index"><div class="section1"><div class="windmill"><div class="icon-windmill rotate"></div></div><div class="slogan-box"><div class="btn-box1 pull-right"><a class="icon-btn-return" href="index.html"></a><a class="icon-btn-home" href="http://ro.thedream.cc/index.html"></a></div><div class="icon-slogan pull-right"></div><div class="btn-box2 pull-right"><div class="icon-btn-userback pull-left"><a class="icon-btn-go btn-go btn-light"><div class="btn-light-wrapper"></div></a></div><div class="icon-btn-records pull-left"><a class="icon-btn-go btn-go btn-light btn-records-go btn-light-delay"><div class="btn-light-wrapper"></div></a></div></div><div class="login-text"><div class="btn-login"><span>亲爱的用户，请</span><span id="loginLink"> </span><span class="login">登录</span></div></div><div class="btn-loginout-box"><span>亲爱的</span><span id="pfid">您好</span><span id="logoutLink">退出</span></div><div class="arrow"><div class="icon-arrow"></div></div></div></div><div class="section2"><div class="sign-container"><span class="sign1" data-day="1"></span><span class="sign2" data-day="2"></span><span class="sign3" data-day="3"></span><span class="sign4" data-day="4"></span><span class="sign5" data-day="5"></span><span class="sign6" data-day="6"></span><span class="sign7" data-day="7"></span><a class="sign8" data-day="8"></a></div><div class="guize-container"><div class="text-guize pull-left"><h1>规则说明</h1><p>老玩家页面只限骏梦平台登陆，未登录状态下点击“领取”显示请先登录</p><p>累计签到7日后可以领取最终签到大奖。</p></div><div class="btn-guize pull-right"><div class="icon-btn-receive"></div></div></div></div><div class="login-bg animated"><div class="icon-btn-close login-close"></div><div class="login-box"> <div class="tab"><span class="dream-login tab-active">骏梦账号登录</span><span class="wx-login">微信登录</span></div><div class="form"><div class="field-box margin-top"><input class="phone" type="text" oninput="if(value.length&gt;8)value=value.slice(0,11)" placeholder="请输入骏梦账号"></div><div class="field-box"><input class="password" type="password" placeholder="请输入密码"></div><div class="field-box"><a class="icon-btn-login-button" href="javascript:"></a></div></div><div class="wx"></div></div></div><div class="records-bg animated"><div class="icon-btn-close login-close"></div><ul id="historyul"></ul></div><div class="scene-wrap"><ul id="scene"><li class="layer bird" data-depth=".08"></li><li class="layer bird" data-depth=".08"><img src="image/bird.png"><img src="image/bird.png"></li></ul></div><div class="mask">       </div><div class="icon-popover-bg userback-state"><div class="icon-btn-close"></div><div class="text">恭喜您获得了老玩家回归礼包</div><div class="usercdk-code"> </div><strong class="text">请于游戏内兑换吧!</strong></div><div class="icon-popover-bg fail-state"><div class="icon-btn-close"></div><strong class="text">抱歉，您不符合老玩家回归条件</strong></div><div class="icon-popover-bg userback-sgin-state"><div class="icon-btn-close"></div><div class="text">恭喜您获得了第一天老玩家回归签到礼包</div><div class="sign-code"> </div><strong class="text">请于游戏内兑换吧!</strong></div><div class="footer"><div class="footer">
+    <div class="gg">
+        <ul>
+            <li>健康游戏公告：</li>
+            <li>抵制不良游戏</li>
+            <li>拒绝盗版游戏</li>
+            <li>注意自我保护</li>
+            <li>谨防受骗上当</li>
+            <li>适度游戏益脑</li>
+            <li>沉迷游戏伤身</li>
+            <li>合理安排时间</li>
+            <li>享受健康生活</li>
+        </ul>
+    </div>
+    <div class="brand">
+        <div class="logo">
+            <a href="http://www.thedream.cc/" target="_blank">
+                <img src="http://game.thedream.cc/resource/ro_footer_logo.png" alt="logo-img">
+            </a>
+        </div>
+        <div class="wz">
+            <p>上海骏梦网络科技有限公司</p>
+            <p>增值电信业务经营许可证：沪 B2-20100048&nbsp;&nbsp;&nbsp;&nbsp;网络文化经营许可证： 沪网文（2016）0212-112号</p>
+            <p>网络出版许可证编号：新出网证（沪）字043号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网络游戏出版号 ISBN
+                978-7-7979-1613-4</p>
+            <p>网络游戏出版批文号：新广出审[2016]2526号&nbsp;&nbsp;&nbsp;&nbsp;文网备案：文网游备字〔2016〕Ｍ-RPG 7730 号</p>
+            <p>公司地址：上海市万航渡路2453号周家桥创意园区B区2楼 电话：021-51555793</p>
+            <p>Copyright @ DREAM 2013 ALL Rights Reserved.</p>
+        </div>
+        <div class="dz">
+            <a href="http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/gameNetTag/4028c08b58675cb4015885dcb0b15de2  "
+               target="_blank"></a>
+        </div>
+        <div class="wt">
+            <a href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/E48FF9B8A18B4379B046E9F06F3AC616"
+               target="_blank"></a>
+        </div>
+        <div class="set">
+            <a href="http://billing.thedream.cc/jzjh.html#" target="_blank"></a>
+        </div>
+    </div>
+</div>
+</div></div></div><script src="lib/jquery-1.12.4.min.js"></script><script src="js/common.js"></script><script src="lib/swiper/swiper.jquery.min.js"></script><script src="lib/parallax.js"></script><script>var parallax = new Parallax(document.getElementById('scene'));</script><!-- rev-hash -->
+<script src="js/userback-mobile.js?v=1c37864cf4ee3c06c91e8086cd930dcf"></script>
+<!-- end --><script src="https://s19.cnzz.com/z_stat.php?id=1262226162&amp;web_id=1261946132" language="JavaScript"></script></body></html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html><html class="no-js" lang="zh"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no"><title>《仙境传说：复兴》手游官网 - 周年庆开启</title><script>var browser = {
+    versions: function () {
+        var u = navigator.userAgent, app = navigator.appVersion;
+        return {//移动终端浏览器版本信息
+            trident: u.indexOf('Trident') > -1, //IE内核
+            presto: u.indexOf('Presto') > -1, //opera内核
+            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf('iPad') > -1, //是否iPad
+            webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+        };
+    }(),
+    language: (navigator.browserLanguage || navigator.language).toLowerCase()
+}
+
+// 判断是否是移动端
+isMobile = (browser.versions.mobile || browser.versions.ios || browser.versions.android ||
+browser.versions.iPhone || browser.versions.iPad)    
+
+if (isMobile) {
+    var docEl = document.documentElement
+    var deviceWidth = docEl.clientWidth;
+    var dpr = window.devicePixelRatio;
+    var scale = 1; // 如果我们做到 dip 和物理像素 1:1
+    var metaEl = document.createElement('meta');
+    metaEl.setAttribute('name', 'viewport');
+    metaEl.setAttribute('content', 'width=device-width, initial-scale=' + scale + ',maximum-scale=1,user-scalable=no');
+    docEl.firstElementChild.appendChild(metaEl);
+
+    var resize = function() {
+        docEl.style.fontSize = (document.documentElement.clientWidth / 750) * 40 + 'px';
+        docEl.setAttribute('data-dpr', dpr);
+    };
+    window.addEventListener('resize', resize);
+    resize();
+}</script><script>if (!isMobile) {
+    location.href = "userback.html"
+}
+</script><meta name="keywords" content="仙境传说，仙境传说手游，仙境传说手游下载，仙境传说手游礼包，仙境传说手游iOS，仙境传说手游苹果，仙境传说手游安卓，仙境传说：复兴，仙境传说：复兴下载，仙境传说：复兴iOS，仙境传说：复兴苹果，仙境传说：复兴安卓，仙境传说：复兴礼包，仙境传说:复兴，仙境传说复兴，RO，RO手游，RO复兴，RO手游下载，RO手游礼包，RO手游iOS，RO手游苹果，RO手游安卓，仙境传说：复兴周年庆，仙境传说复兴周年庆，仙境传说：复兴1周年，仙境传说复兴1周年，仙境传说：复兴一周年，仙境传说复兴一周年"><meta name="description" content="《仙境传说：复兴》是骏梦游戏联手韩国Gravity出品正统RO手游，继承端游纯正血统，完美重塑梦幻萌系RO世界，波利、小恶魔等萌宠伴你共赴冒险之旅。迎接初心者再次上路，重温曾经最美好的游戏时光！"><meta name="format-detection" content="telephone=no,address=no,email=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="renderer" content="webkit"><!-- uc强制竖屏 --><meta name="screen-orientation" content="portrait"><!-- QQ强制竖屏 --><meta name="x5-orientation" content="portrait"><!-- UC强制全屏 --><meta name="full-screen" content="yes"><!-- QQ强制全屏 --><meta name="x5-fullscreen" content="true"><!-- UC应用模式 --><meta name="browsermode" content="application"><!-- QQ应用模式 --><meta name="x5-page-mode" content="app"><!-- rev-hash -->
+<!-- end --><link rel="stylesheet" href="lib/swiper/swiper.min.css"><!-- rev-hash -->
+<link rel="stylesheet" href="css/userback-mobile.css?v=e701efbf8e88d73a2c70951b2c654f98">
+<!-- end --></head><body class="loading" ontouchstart=""><!--[if lt IE 9]><p class="browserupgrade">抱歉，本网站需要 IE9+ 或现代浏览器。请升级或使用其他浏览器。国产浏览器请使用极速模式，不要使用兼容模式。</p><![endif]--><div class="toast-container"></div><div class="container"><div class="header"><a class="icon-icon" href="mobile.html"></a><a class="icon-download" href="http://t.ilucky.com/ro_ios"></a></div><div class="view-index"><div class="mobile-section1"><div class="slogan-wrap"><div class="btn-box"><a class="icon-btn-return" href="mobile.html"></a><a class="icon-btn-home" href="http://ro.thedream.cc/index.html"></a></div><div class="icon-slogan"></div><div class="user-box"><div class="icon-btn-userback pull-left"><a class="icon-btn-go btn-go btn-light"><div class="btn-light-wrapper"></div></a></div><div class="icon-btn-records pull-left"><a class="icon-btn-go btn-go btn-light btn-records-go"><div class="btn-light-wrapper"></div></a></div></div><div class="login-text"><div class="btn-login"><span>亲爱的用户，请</span><span id="loginLink"> </span><span class="login">登录</span></div></div><div class="btn-loginout-box"><span>亲爱的</span><span id="pfid">您好</span><span id="logoutLink">退出</span></div></div></div><div class="mobile-section2"><div class="sign-container"><span class="sign1" data-day="1"></span><span class="sign2" data-day="2"></span><span class="sign3" data-day="3"></span><span class="sign4" data-day="4"></span><span class="sign5" data-day="5"></span><span class="sign6" data-day="6"></span><span class="sign7" data-day="7"></span><a class="sign8" data-day="8"></a></div><div class="icon-btn-receive"></div></div><div class="login-bg animated"><div class="login-box"> <div class="tab"><span class="dream-login tab-active">骏梦账号登录</span><span class="wx-login">微信登录</span></div><div class="form"><div class="field-box margin-top"><input class="phone" type="text" oninput="if(value.length&gt;8)value=value.slice(0,11)" placeholder="请输入骏梦账号"></div><div class="field-box"><input class="password" type="password" placeholder="请输入密码"></div><div class="field-box"><a class="icon-btn-login-button" href="javascript:"></a></div></div><div class="wx"></div></div></div><div class="records-bg animated"><ul id="historyul"></ul></div><div class="mask">       </div><div class="icon-popover-bg userback-state"><div class="icon-btn-close"></div><div class="text">恭喜您获得了老玩家回归礼包</div><div class="usercdk-code"> </div><strong class="text">请于游戏内兑换吧!</strong></div><div class="icon-popover-bg fail-state"><div class="icon-btn-close"></div><strong class="text">抱歉，您不符合老玩家回归条件</strong></div><div class="icon-popover-bg userback-sgin-state"><div class="icon-btn-close"></div><div class="text">恭喜您获得了第一天老玩家回归签到礼包</div><div class="sign-code"> </div><strong class="text">请于游戏内兑换吧!</strong></div><div class="footer"><div class="bottom"><div class="footer-logo"></div><p>文网游备字〔2015〕Ｍ-RPG 0791 号</p><p>新广出审[2015]949号</p><p>Copyright © DREAM2 2013-2017 All Rights Reserved.</p></div></div></div></div><script src="lib/jquery-1.12.4.min.js"></script><script src="js/common.js"></script><script src="lib/swiper/swiper.jquery.min.js"></script><!-- rev-hash -->
+<script src="js/userback-mobile.js?v=1c37864cf4ee3c06c91e8086cd930dcf"></script><script src="lib/crypto.js?v=1c37864cf4ee3c06c91e8086cd930dcf"></script>
+<!-- end --><script src="https://s19.cnzz.com/z_stat.php?id=1262226162&amp;web_id=1261946132" language="JavaScript"></script></body></html>

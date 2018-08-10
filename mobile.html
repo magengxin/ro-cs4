@@ -1,0 +1,46 @@
+<!DOCTYPE html><html class="no-js" lang="zh"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no"><title>《仙境传说：复兴》手游官网 - 周年庆开启</title><script>var browser = {
+    versions: function () {
+        var u = navigator.userAgent, app = navigator.appVersion;
+        return {//移动终端浏览器版本信息
+            trident: u.indexOf('Trident') > -1, //IE内核
+            presto: u.indexOf('Presto') > -1, //opera内核
+            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf('iPad') > -1, //是否iPad
+            webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+        };
+    }(),
+    language: (navigator.browserLanguage || navigator.language).toLowerCase()
+}
+
+// 判断是否是移动端
+isMobile = (browser.versions.mobile || browser.versions.ios || browser.versions.android ||
+browser.versions.iPhone || browser.versions.iPad)    
+
+if (isMobile) {
+    var docEl = document.documentElement
+    var deviceWidth = docEl.clientWidth;
+    var dpr = window.devicePixelRatio;
+    var scale = 1; // 如果我们做到 dip 和物理像素 1:1
+    var metaEl = document.createElement('meta');
+    metaEl.setAttribute('name', 'viewport');
+    metaEl.setAttribute('content', 'width=device-width, initial-scale=' + scale + ',maximum-scale=1,user-scalable=no');
+    docEl.firstElementChild.appendChild(metaEl);
+
+    var resize = function() {
+        docEl.style.fontSize = (document.documentElement.clientWidth / 750) * 40 + 'px';
+        docEl.setAttribute('data-dpr', dpr);
+    };
+    window.addEventListener('resize', resize);
+    resize();
+}</script><script>if (!isMobile) {
+    location.href = "index.html"
+}
+</script><meta name="keywords" content="仙境传说，仙境传说手游，仙境传说手游下载，仙境传说手游礼包，仙境传说手游iOS，仙境传说手游苹果，仙境传说手游安卓，仙境传说：复兴，仙境传说：复兴下载，仙境传说：复兴iOS，仙境传说：复兴苹果，仙境传说：复兴安卓，仙境传说：复兴礼包，仙境传说:复兴，仙境传说复兴，RO，RO手游，RO复兴，RO手游下载，RO手游礼包，RO手游iOS，RO手游苹果，RO手游安卓，仙境传说：复兴周年庆，仙境传说复兴周年庆，仙境传说：复兴1周年，仙境传说复兴1周年，仙境传说：复兴一周年，仙境传说复兴一周年"><meta name="description" content="《仙境传说：复兴》是骏梦游戏联手韩国Gravity出品正统RO手游，继承端游纯正血统，完美重塑梦幻萌系RO世界，波利、小恶魔等萌宠伴你共赴冒险之旅。迎接初心者再次上路，重温曾经最美好的游戏时光！"><meta name="format-detection" content="telephone=no,address=no,email=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="renderer" content="webkit"><!-- uc强制竖屏 --><meta name="screen-orientation" content="portrait"><!-- QQ强制竖屏 --><meta name="x5-orientation" content="portrait"><!-- UC强制全屏 --><meta name="full-screen" content="yes"><!-- QQ强制全屏 --><meta name="x5-fullscreen" content="true"><!-- UC应用模式 --><meta name="browsermode" content="application"><!-- QQ应用模式 --><meta name="x5-page-mode" content="app"><!-- rev-hash -->
+<!-- end --><!-- rev-hash -->
+<link rel="stylesheet" href="css/mobile.css?v=c1b1df703aa05cca409bcb6263425ea1">
+<!-- end --></head><body class="loading" ontouchstart=""><!--[if lt IE 9]><p class="browserupgrade">抱歉，本网站需要 IE9+ 或现代浏览器。请升级或使用其他浏览器。国产浏览器请使用极速模式，不要使用兼容模式。</p><![endif]--><div class="toast-container"></div><div class="container"><div class="view-index"><div class="header"><a class="icon-icon" href="mobile.html"></a><a class="icon-download" href="http://t.ilucky.com/ro_ios"></a></div><div class="section1"><a class="icon-logo" href="javascript:"></a><a class="icon-go-home" href="http://ro.thedream.cc/index.html"></a><div class="icon-balloon1"></div><div class="icon-balloon2"></div><div class="icon-slogan"><a class="icon-angel" href="javascript:"></a></div><a class="icon-return" href="userback-mobile.html"></a></div><div class="icon-title"></div><div class="section2"><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon1.png"></div><div class="hd-font"><p>兰特克里斯、趴趴教皇来就送</p><p>老玩家专属礼包</p></div><div class="icon-hdbg"><span>活动一</span></div></a><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon2.png"></div><div class="hd-font"><p>唯有美食与爱不可辜负</p><p>周年蛋糕齐分享</p></div><div class="icon-hdbg"><span>活动二</span></div></a><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon3.png"></div><div class="hd-font"><p>签到就送20资质青冠龙</p><p>集蛋糕换好礼</p></div><div class="icon-hdbg"><span>活动三</span></div></a><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon4.png"></div><div class="hd-font"><p>太阳神的象征</p><p>生日狂欢送福利</p></div><div class="icon-hdbg"><span>活动四</span></div></a><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon5.png"></div><div class="hd-font"><p>11月8日～11月10日</p><p>三倍福利心实惠</p></div><div class="icon-hdbg"><span>活动五</span></div></a><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon6.png"></div><div class="hd-font"><p>先定一个小目标</p><p>卡普拉周年祭</p></div><div class="icon-hdbg"><span>活动六</span></div></a><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon7.png"></div><div class="hd-font"><p>周边大放送</p><p>萌宠波利来庆生</p></div><div class="icon-hdbg"><span>活动七</span></div></a><a class="hdbg" href="javascript:"><div class="icon-border"><img src="image/icon/icon8.png"></div><div class="hd-font"><p>感恩大回馈</p><p>入驻新服得萌宠</p></div><div class="icon-hdbg"><span>活动八</span></div></a><div class="icon-girl"></div></div><div class="icon-title2"></div><div class="section3"><div class="move-img"><img src="image/history.gif" alt="history-move-img"></div><div class="history"><span>2016年11月8日</span><table><tr><td>国服全平台公测</td></tr></table></div><div class="history"><span>2016年11月23日</span><table><tr><td>新增玩法-乐园团狩猎</td></tr><tr><td>开启公会秘境 喵喵实验室</td></tr></table></div><div class="history"><span>2016年12月14日</span><table><tr><td>霸士之争GVG公会战开启</td></tr><tr><td>开放魔王试练</td></tr></table></div><div class="history"><span>2017年1月18日</span><table><tr><td>3V3小队赛开战</td></tr><tr><td>新春嘉年华专题</td></tr></table></div><div class="history"><span>2017年2月22日</span><table><tr><td>人物转生，提升等级</td></tr><tr><td>奥丁军需库</td></tr></table></div><div class="history"><span>2017年3月2日</span><table><tr><td>装备传承，神器降临</td></tr></table></div><div class="history"><span>2017年4月12日</span><table><tr><td>势力战开启</td></tr></table></div><div class="history"><span>2017年6月14日</span><table><tr><td>守护永恒的爱-婚姻系统</td></tr></table></div><div class="history"><span>2017年7月5日</span><table><tr><td>开放宿命武器</td></tr></table><table><tr><td>未完待续</td></tr></table></div></div><div class="footer"><div class="bottom"><div class="footer-logo"></div><p>文网游备字〔2015〕Ｍ-RPG 0791 号</p><p>新广出审[2015]949号</p><p>Copyright © DREAM2 2013-2017 All Rights Reserved.</p></div></div></div></div><script src="lib/jquery-1.12.4.min.js"></script><script src="js/common.js"></script><script src="https://s19.cnzz.com/z_stat.php?id=1262226162&amp;web_id=1261946132" language="JavaScript"></script></body></html>
